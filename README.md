@@ -1,4 +1,4 @@
-Campus Navigation System 🗺️
+**Campus Navigation System 🗺️**
 
 A web-based Campus Navigation System designed to help students, faculty, and visitors easily navigate through the college campus and find the shortest route between different locations.
 
