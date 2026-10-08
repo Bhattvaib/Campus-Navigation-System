@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Campus Map</title>
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          crossorigin="">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="hint">Click a location to select START, then click another for DESTINATION</div>
+        <button id="resetBtn" class="reset-btn">Reset</button>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="info-box">
+        <div>
+            <span class="label">From</span>
+            <span id="from">--</span>
+        </div>
+        <div>
+            <span class="label">To</span>
+            <span id="to">--</span>
+        </div>
+        <div>
+            <span class="label">Distance</span>
+            <span id="distance">--</span>
+        </div>
+        <div>
+            <span class="label">Walking Time</span>
+            <span id="time">--</span>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div><span class="dot start-dot"></span> Start</div>
+        <div><span class="dot end-dot"></span> Destination</div>
+        <div><span class="line"></span> Route</div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
